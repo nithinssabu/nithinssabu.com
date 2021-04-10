@@ -14,11 +14,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hello, I'm <a href="/">Nithin S. Sabu</a>
+          <a href="/">Nithin S. Sabu</a>
         </h1>
 
         <p className={styles.description}>
-          I'm an engineer who loves everything computers.
+          I'm an engineer who loves everything computers. I have programmed a
+          variety of computing devices starting from small microcontrollers to
+          embedded processors to FPGAs to super computers. I have 6+ years
+          professional experience as a Full Stack Web Developer and my current
+          focus is to specialize in Front End Javascript technologies and the
+          node ecosystem.
           {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
       </main>
