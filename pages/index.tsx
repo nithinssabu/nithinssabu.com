@@ -1,17 +1,20 @@
 import Head from "next/head";
+import { LinkedIn, GitHub } from "@material-ui/icons";
 import styles from "../styles/Home.module.css";
+import CodingTimeline from "../components/CodingTimeline";
+import ExternalLink from "../components/ExternalLink";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Nithin S. Sabu</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hello, I'm <a href="/">Nithin</a>
+          Hello, I'm <a href="/">Nithin S. Sabu</a>
         </h1>
 
         <p className={styles.description}>
@@ -20,15 +23,23 @@ export default function Home() {
         </p>
       </main>
 
+      <CodingTimeline />
+
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
+        <ExternalLink
+          href="https://www.linkedin.com/in/90nithinsabu"
+          aria-label="Github profile"
+          rel="me"
         >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+          <LinkedIn />
+        </ExternalLink>
+        <ExternalLink
+          href="https://github.com/nithinssabu"
+          aria-label="Github profile"
+          rel="me"
+        >
+          <GitHub />
+        </ExternalLink>
       </footer>
     </div>
   );
