@@ -1,9 +1,9 @@
 .container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
-  max-width: 67.5rem;
+  max-width: 52rem;
   margin: auto;
 }
 
@@ -34,9 +34,9 @@
   padding: 10px;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.title {
+  font-size: 48px !important;
+  font-weight: 700;
 }
 
 .title a:hover,
@@ -51,9 +51,16 @@
   font-size: 4rem;
 }
 
-.description {
+.summary {
+  font-weight: 300;
+}
+
+.description,
+.summary {
   line-height: 1.5;
   font-size: 1.2rem;
+  text-align: center;
+  font-weight: 300;
 }
 
 .code {

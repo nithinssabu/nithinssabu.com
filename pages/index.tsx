@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { LinkedIn, GitHub } from "@material-ui/icons";
 import styles from "../styles/Home.module.css";
-import CodingTimeline from "../components/CodingTimeline";
 import ExternalLink from "../components/ExternalLink";
 
 export default function Home() {
@@ -13,23 +12,21 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          <a href="/">Nithin S. Sabu</a>
-        </h1>
-        <p className={styles.description}>
-          I'm an engineer who loves everything computers. I have programmed a
-          variety of computing devices starting from tiny microcontrollers to
-          embedded processors to FPGAs to super computers.
+        <span className={styles.title}>
+          . Engineer . Programmer . Musician .
+        </span>
+        <p className={styles.summary}>
+          I love to write beautiful code to solve complex problems.
         </p>
         <p className={styles.description}>
-          I have 6+ years professional experience as a Full Stack Web Developer
-          and my current focus is to specialize in Front End Javascript
-          technologies and the node ecosystem.
+          Hi, I'm <strong>Nithin S. Sabu</strong>. I am a Software Engineer.
+          <br /> I have programmed a variety of computing devices starting from
+          tiny microcontrollers to embedded processors to FPGAs to super
+          computers. I have 6+ years professional experience as a Full Stack Web
+          Developer. I love JavaScript and React.
           {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
       </main>
-
-      <CodingTimeline />
 
       <footer className={styles.footer}>
         <ExternalLink
