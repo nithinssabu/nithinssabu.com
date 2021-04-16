@@ -67,19 +67,22 @@
 .description {
   padding: 50px;
   max-width: 42rem !important;
-  background: rgb(57, 89, 102);
-  background: linear-gradient(
-    90deg,
-    rgba(57, 89, 102, 1) 0%,
-    rgba(2, 10, 11, 1) 100%
-  );
-
   border-radius: 50px;
 }
 
+.desc {
+  padding: 50px;
+  max-width: 42rem !important;
+  border-radius: 10px !important;
+}
+
 .descriptionBox {
-  /* background: #395966; */
   color: #fff;
+  background-image: url(/contour.svg);
+}
+
+.primary {
+  color: #395966;
 }
 
 .timeline {

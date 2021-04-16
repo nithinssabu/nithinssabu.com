@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { LinkedIn, GitHub } from "@material-ui/icons";
-import { Grid, Container, Box } from "@material-ui/core";
+import { Grid, Container, Box, Paper } from "@material-ui/core";
 import Timeline from "../components/Timeline/Timeline";
 import styles from "../styles/Home.module.css";
 import ExternalLink from "../components/ExternalLink";
@@ -10,17 +10,12 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Nithin S. Sabu</title>
-        <link rel="icon" href="/buchstabe-n.svg" />
+        <link rel="icon" href="/logo.svg" />
       </Head>
 
       <nav className={styles.nav}>
         <Container className={styles.menu}>
-          <img
-            src="buchstabe-n.svg"
-            alt="my image"
-            width="50"
-            color="lightblue"
-          />
+          <img src="logo.svg" alt="logo" width="50" color="lightblue" />
         </Container>
       </nav>
 
@@ -37,14 +32,20 @@ export default function Home() {
         </p>
         <Box className={styles.descriptionBox}>
           <Container className={styles.description}>
-            <p>
-              Hi, I'm <strong>Nithin S. Sabu</strong>. I am a Software Engineer.
-              <br /> I have programmed a variety of computing devices starting
-              from tiny microcontrollers to embedded processors to FPGAs to
-              super computers &amp; have 6+ years professional experience as a
-              Full Stack Web Developer. I love JavaScript and React.
-              {/* <code className={styles.code}>pages/index.js</code> */}
-            </p>
+            <Paper elevation={3} className={styles.desc}>
+              <p>
+                Hi, I'm{" "}
+                <span className={styles.primary}>
+                  <strong>Nithin S. Sabu</strong>
+                </span>
+                . <br />
+                <br />I am a Software Engineer.
+                <br /> I have programmed a variety of computing devices starting
+                from tiny microcontrollers to embedded processors to FPGAs to
+                super computers &amp; have 6+ years professional experience as a
+                Full Stack Web Developer. I love JavaScript and React.
+              </p>
+            </Paper>
           </Container>
         </Box>
       </main>
