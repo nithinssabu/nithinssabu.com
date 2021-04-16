@@ -1,10 +1,11 @@
 .container {
-  /* min-height: 100vh; */
-  padding: 0 1.5rem;
   display: flex;
   flex-direction: column;
-  max-width: 52rem;
   margin: auto;
+}
+
+.nav {
+  padding: 40px;
 }
 
 .main {
@@ -35,17 +36,10 @@
 }
 
 .title {
-  font-size: 48px !important;
+  font-size: 36px !important;
   font-weight: 700;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
+  max-width: 635px !important;
+  padding: 20px 20px 10px 20px;
   margin: 0;
   line-height: 1.15;
   font-size: 4rem;
@@ -53,6 +47,7 @@
 
 .summary {
   font-weight: 300;
+  padding: 10px 20px 500px 20px;
 }
 
 .description,
@@ -61,6 +56,20 @@
   font-size: 1.2rem;
   text-align: center;
   font-weight: 300;
+}
+
+.description {
+  padding: 50px;
+  max-width: 52rem !important;
+}
+
+.descriptionBox {
+  background: #395966;
+  color: #fff;
+}
+
+.timeline {
+  max-width: 52rem !important;
 }
 
 .code {
