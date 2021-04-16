@@ -26,6 +26,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #395966;
+  color: #fff;
 }
 
 .footer img {
@@ -65,17 +67,11 @@
 .description {
   padding: 50px;
   max-width: 42rem !important;
-  /* background: rgb(34, 211, 238);
+  background: rgb(57, 89, 102);
   background: linear-gradient(
     90deg,
-    rgba(34, 211, 238, 1) 0%,
-    rgba(14, 165, 233, 1) 100%
-  ); */
-  background: rgb(68, 178, 203);
-  background: linear-gradient(
-    90deg,
-    rgba(68, 178, 203, 1) 0%,
-    rgba(57, 89, 102, 1) 100%
+    rgba(57, 89, 102, 1) 0%,
+    rgba(2, 10, 11, 1) 100%
   );
 
   border-radius: 50px;
