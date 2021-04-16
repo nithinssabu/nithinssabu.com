@@ -14,7 +14,14 @@ export default function Home() {
       </Head>
 
       <nav className={styles.nav}>
-        <img src="buchstabe-n.svg" alt="my image" width="50" />
+        <Container className={styles.menu}>
+          <img
+            src="buchstabe-n.svg"
+            alt="my image"
+            width="50"
+            color="lightblue"
+          />
+        </Container>
       </nav>
 
       <main className={styles.main}>
