@@ -106,3 +106,11 @@
 .timeline {
   max-width: 52rem !important;
 }
+
+.timelineTitle {
+  font-size: 28px !important;
+  font-weight: 700;
+  max-width: 390px !important;
+  color: #8e51c7;
+  margin-bottom: 10px;
+}
