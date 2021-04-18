@@ -63,14 +63,18 @@ export default function Home() {
           aria-label="Github profile"
           rel="me"
         >
-          <LinkedIn />
+          <span className={styles.footerIcon}>
+            <LinkedIn />
+          </span>
         </ExternalLink>
         <ExternalLink
           href="https://github.com/nithinssabu"
           aria-label="Github profile"
           rel="me"
         >
-          <GitHub />
+          <span className={styles.footerIcon}>
+            <GitHub />
+          </span>
         </ExternalLink>
       </footer>
     </div>

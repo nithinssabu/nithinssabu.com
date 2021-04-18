@@ -35,8 +35,10 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08),
-    0 3px 0 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
+    0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  color: white;
+  background: #8d50c8;
 }
 .vertical-timeline--one-column-right .vertical-timeline-element-icon {
   right: 0;
@@ -142,7 +144,8 @@
   background: white;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #ddd;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
 }
 
 .vertical-timeline--one-column-right .vertical-timeline-element-content {
@@ -197,7 +200,7 @@
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid white;
+  border-right: 7px solid #c6c6c6;
 }
 
 .vertical-timeline--one-column-right .vertical-timeline-element-content-arrow {

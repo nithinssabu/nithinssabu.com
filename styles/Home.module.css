@@ -36,15 +36,19 @@
   color: #fff;
 }
 
-.footer img {
-  margin-left: 0.5rem;
-}
-
 .footer a {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
+}
+
+.footerIcon {
+  padding: 10px;
+}
+
+.footerIcon:hover {
+  background: #8e51c7;
 }
 
 .title {
