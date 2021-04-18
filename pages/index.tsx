@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { LinkedIn, GitHub } from "@material-ui/icons";
-import { Grid, Container, Box, Paper } from "@material-ui/core";
+import { Grid, Container, Box } from "@material-ui/core";
 import Timeline from "../components/Timeline/Timeline";
 import styles from "../styles/Home.module.css";
 import ExternalLink from "../components/ExternalLink";
@@ -30,22 +30,25 @@ export default function Home() {
         <p className={styles.summary}>
           I love to write beautiful code to solve complex problems.
         </p>
+        <Container className={styles.mainImage}>
+          <img src="coding.svg" width="260px" />
+        </Container>
         <Box className={styles.descriptionBox}>
           <Container className={styles.description}>
-            <Paper elevation={3} className={styles.desc}>
-              <p>
-                Hi, I'm{" "}
-                <span className={styles.primary}>
-                  <strong>Nithin S. Sabu</strong>
-                </span>
-                . <br />
-                <br />I am a Software Engineer.
-                <br /> I have programmed a variety of computing devices starting
-                from tiny microcontrollers to embedded processors to FPGAs to
-                super computers &amp; have 6+ years professional experience as a
-                Full Stack Web Developer. I love JavaScript and React.
-              </p>
-            </Paper>
+            <p>
+              Hi, I'm{" "}
+              <span className={styles.primary}>
+                <strong>Nithin S. Sabu</strong>
+              </span>
+              . <br />
+              <br />I am a Software Engineer.
+              <br /> I have programmed different types of computing devices
+              starting from tiny microcontrollers to embedded processors to
+              FPGAs to super computers &amp; have 6+ years professional
+              experience as a Full Stack Web Developer. I love JavaScript and
+              React.
+            </p>
+            {/* </Paper> */}
           </Container>
         </Box>
       </main>

@@ -1,69 +1,51 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 23.631 23.631" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
-<g xmlns="http://www.w3.org/2000/svg">
-	<g>
-		<polygon points="0,0.663 9.401,0.663 15.882,7.146 15.882,14.127 5.307,3.608 5.274,22.969 0,22.969   " fill="#395966" data-original="#000000" style="" class=""/>
-		<polygon points="23.631,22.969 14.232,22.969 7.752,16.485 7.752,9.501 18.327,20.018 18.359,0.662 23.631,0.662   " fill="#395966" data-original="#000000" style="" class=""/>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-<g xmlns="http://www.w3.org/2000/svg">
-</g>
-</g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 23.631 23.631" style="enable-background:new 0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="7.941" y1="0.663" x2="7.941" y2="22.969" id="gradient-1">
+      <stop offset="0" style="stop-color: rgba(135, 70, 195, 1)"/>
+      <stop offset="1" style="stop-color: rgba(83, 40, 123, 1)"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="15.692" y1="0.662" x2="15.692" y2="22.969" id="gradient-0">
+      <stop offset="0" style="stop-color: rgba(135, 70, 195, 1)"/>
+      <stop offset="1" style="stop-color: rgba(83, 40, 123, 1)"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g xmlns="http://www.w3.org/2000/svg">
+      <g>
+        <polygon points="0,0.663 9.401,0.663 15.882,7.146 15.882,14.127 5.307,3.608 5.274,22.969 0,22.969   " data-original="#000000" style="fill: url(#gradient-1);" class=""/>
+        <polygon points="23.631,22.969 14.232,22.969 7.752,16.485 7.752,9.501 18.327,20.018 18.359,0.662 23.631,0.662   " data-original="#000000" style="fill: url(#gradient-0);" class=""/>
+      </g>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+      <g/>
+    </g>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+    <g xmlns="http://www.w3.org/2000/svg"/>
+  </g>
+</svg>
