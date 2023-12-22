@@ -5,6 +5,7 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
           🚀 Hey, I&apos;m Nithin S. Sabu, <br />a JavaScript fanatic and
           frontend wizard. 💻✨
         </h2>
+        <div className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+          <Image src="coding.svg" width="260" height="260" alt="coding" />
+        </div>
         <h2 className={subtitle({ class: "mt-4" })}>
           Welcome to my digital hub where I solve problems with sleek code.
           Explore the world of frontend tech, follow my coding adventures, and
