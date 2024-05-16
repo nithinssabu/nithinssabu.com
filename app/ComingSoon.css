@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.comingSoonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  font-family: "Press Start 2P", cursive; /* Retro video game font */
+  color: #ffcc00; /* Bright yellow for a classic look */
+  text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 40px #ffcc00,
+    0 0 80px #ffcc00; /* Neon glow effect */
+}
+
+.comingSoonContainer h1 {
+  font-size: 2rem;
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 40px #ffcc00,
+      0 0 80px #ffcc00;
+  }
+  to {
+    text-shadow: 0 0 20px #ffcc00, 0 0 30px #ff8811, 0 0 40px #ff8811,
+      0 0 100px #ff8811, 0 0 150px #ff8811;
+  }
+}
